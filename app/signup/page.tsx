@@ -148,7 +148,7 @@ export default function SignupPage() {
             Create your student account, choose an available room, and complete the demo payment.
           </p>
         </div>
-        <span className="text-xs text-blue-200">© {new Date().getFullYear()} Pan-Atlantic University</span>
+        <span className="text-xs text-blue-200">© Ayomide Kareem</span>
       </section>
 
       <section className="flex items-center justify-center px-5 py-10 sm:px-8">

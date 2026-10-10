@@ -64,7 +64,7 @@ export default function LoginPage() {
             Sign in to access your student services and hostel information.
           </p>
         </div>
-        <span className="text-xs text-blue-200">© {new Date().getFullYear()} Pan-Atlantic University</span>
+        <span className="text-xs text-blue-200">© Ayomide Kareem</span>
       </section>
 
       <section className="flex items-center justify-center px-5 py-10 sm:px-8">

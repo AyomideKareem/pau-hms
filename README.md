@@ -1,5 +1,31 @@
 # PAU Hostel Management System
 
+## MongoDB Atlas setup
+
+The application and seed script connect to MongoDB through the MongoDB Node.js
+driver. Configure both to use the same Atlas cluster and database:
+
+1. Create an Atlas cluster and a **database user** with access to the `pau_hms`
+   database. This is separate from your MongoDB Atlas website login.
+2. In Atlas Network Access, allow connections from your development machine
+   and from the application deployment environment. Prefer specific egress IPs
+   where your hosting provider supports them; avoid broad access where
+   possible.
+3. Copy the Atlas **Drivers** connection string (`mongodb+srv://...`) into
+   `.env.local` as `MONGODB_URI`. Replace the username, password, and cluster
+   placeholders. URL-encode special characters in the database user's
+   password.
+4. Keep `MONGODB_DB=pau_hms` and set a unique `SESSION_SECRET` of at least 32
+   bytes. Configure these values as server-side environment variables in the
+   deployment platform too; never prefix them with `NEXT_PUBLIC_` or commit
+   real credentials.
+5. Run `pnpm seed` with the same environment variables to initialize the
+   hostels and sample data in Atlas.
+
+The app reuses its MongoDB client across requests, creates the required
+indexes, and initializes demo room inventory in the configured database.
+Deployments do not require a MongoDB server running on the application host.
+
 ## Login backend (development)
 
 Students can create an account with a username, matric number, and password;
@@ -13,9 +39,10 @@ hashes. Successful login sets a signed, HTTP-only, seven-day session cookie;
 `/api/auth/session` returns the current user and accepts `DELETE` to log out.
 The home page requires a valid session and shows room details when assigned.
 
-1. Copy `.env.example` to `.env.local`, set `MONGODB_URI`, and set
-   `SESSION_SECRET` to a unique random value of at least 32 bytes (for example,
-   generate one with `node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"`).
+1. Copy `.env.example` to `.env.local` and replace the Atlas connection-string
+   placeholders. Set `SESSION_SECRET` to a unique random value of at least 32
+   bytes (for example, generate one with
+   `node -e "console.log(require('node:crypto').randomBytes(32).toString('hex'))"`).
 2. Install dependencies with `pnpm install`.
 3. Add mock login accounts using `pnpm seed`.
 4. Start the app using `pnpm dev`.
