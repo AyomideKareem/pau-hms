@@ -1,0 +1,67 @@
+{
+  "emerald": [
+    { "id": "emerald-jollof", "name": "Jollof rice & grilled chicken", "description": "Smoky jollof, grilled chicken and slaw.", "category": "Lunch", "price": 3500, "quantityAvailable": 18 },
+    { "id": "emerald-yam", "name": "Yam & garden egg sauce", "description": "Boiled yam with a fresh garden egg sauce.", "category": "Breakfast", "price": 2200, "quantityAvailable": 12 },
+    { "id": "emerald-zobo", "name": "Chilled zobo", "description": "House-made hibiscus drink.", "category": "Drinks", "price": 700, "quantityAvailable": 24 }
+  ],
+  "edc": [
+    { "id": "edc-friedrice", "name": "Fried rice & grilled turkey", "description": "Vegetable fried rice with grilled turkey.", "category": "Lunch", "price": 4200, "quantityAvailable": 14 },
+    { "id": "edc-eggroll", "name": "Egg sandwich & fruit", "description": "Toasted egg sandwich with seasonal fruit.", "category": "Breakfast", "price": 1800, "quantityAvailable": 10 },
+    { "id": "edc-lemonade", "name": "Fresh lemonade", "description": "Freshly squeezed lemon with a hint of ginger.", "category": "Drinks", "price": 900, "quantityAvailable": 20 }
+  ],
+  "faith": [
+    { "id": "faith-ofada", "name": "Ofada rice & ayamase", "description": "Local ofada rice with green pepper sauce.", "category": "Lunch", "price": 3200, "quantityAvailable": 16 },
+    { "id": "faith-akara", "name": "Akara & pap", "description": "Fresh akara served with warm pap.", "category": "Breakfast", "price": 1500, "quantityAvailable": 15 },
+    { "id": "faith-water", "name": "Bottled water", "description": "Chilled bottled water.", "category": "Drinks", "price": 400, "quantityAvailable": 30 }
+  ],
+  "amethyst": [
+    { "id": "amethyst-spaghetti", "name": "Stir-fried spaghetti", "description": "Spaghetti tossed with vegetables and egg.", "category": "Lunch", "price": 2600, "quantityAvailable": 20 },
+    { "id": "amethyst-pancakes", "name": "Pancakes & honey", "description": "Fluffy pancakes with honey and banana.", "category": "Breakfast", "price": 1900, "quantityAvailable": 11 },
+    { "id": "amethyst-smoothie", "name": "Mango smoothie", "description": "Blended mango and yoghurt.", "category": "Drinks", "price": 1200, "quantityAvailable": 9 }
+  ],
+  "the-pod": [
+    { "id": "pod-beans", "name": "Beans & plantain", "description": "Stewed beans with sweet fried plantain.", "category": "Lunch", "price": 2400, "quantityAvailable": 13 },
+    { "id": "pod-toast", "name": "French toast & fruit", "description": "Golden French toast with fresh fruit.", "category": "Breakfast", "price": 2100, "quantityAvailable": 8 },
+    { "id": "pod-tigernut", "name": "Tigernut milk", "description": "Chilled, lightly spiced tigernut drink.", "category": "Drinks", "price": 1000, "quantityAvailable": 16 }
+  ],
+  "cooperative-kings": [
+    { "id": "kings-suya", "name": "Suya chicken wrap", "description": "Spiced chicken, vegetables and yoghurt sauce.", "category": "Dinner", "price": 3000, "quantityAvailable": 12 },
+    { "id": "kings-noodles", "name": "Egg noodles & vegetables", "description": "Wok-tossed noodles with mixed vegetables.", "category": "Lunch", "price": 2300, "quantityAvailable": 17 },
+    { "id": "kings-tea", "name": "Ginger tea", "description": "Warm ginger and lemon tea.", "category": "Drinks", "price": 600, "quantityAvailable": 22 }
+  ],
+  "cooperative-queens": [
+    { "id": "queens-coconut", "name": "Coconut rice & fish", "description": "Coconut rice served with peppered fish.", "category": "Lunch", "price": 3800, "quantityAvailable": 12 },
+    { "id": "queens-oats", "name": "Oats, yoghurt & berries", "description": "Creamy oats with yoghurt and seasonal berries.", "category": "Breakfast", "price": 2000, "quantityAvailable": 10 },
+    { "id": "queens-pineapple", "name": "Pineapple juice", "description": "Fresh pineapple juice, served chilled.", "category": "Drinks", "price": 1000, "quantityAvailable": 15 }
+  ],
+  "redwood-hall": [
+    { "id": "redwood-egusi", "name": "Pounded yam & egusi", "description": "Pounded yam with rich melon-seed soup.", "category": "Dinner", "price": 4000, "quantityAvailable": 9 },
+    { "id": "redwood-moinmoin", "name": "Moin-moin & custard", "description": "Steamed bean pudding with warm custard.", "category": "Breakfast", "price": 1700, "quantityAvailable": 14 },
+    { "id": "redwood-chapman", "name": "Chapman", "description": "Classic fruity Chapman mocktail.", "category": "Drinks", "price": 1300, "quantityAvailable": 12 }
+  ],
+  "trinity-hall": [
+    { "id": "trinity-plantain", "name": "Plantain porridge", "description": "Ripe plantain cooked with greens and smoked fish.", "category": "Lunch", "price": 2800, "quantityAvailable": 11 },
+    { "id": "trinity-waffles", "name": "Waffles & fruit", "description": "Warm waffles with a side of fresh fruit.", "category": "Breakfast", "price": 2500, "quantityAvailable": 7 },
+    { "id": "trinity-coconut", "name": "Coconut water", "description": "Fresh chilled coconut water.", "category": "Drinks", "price": 900, "quantityAvailable": 18 }
+  ],
+  "pearl-hall": [
+    { "id": "pearl-jollof", "name": "Native jollof & smoked fish", "description": "One-pot native jollof with smoked fish.", "category": "Lunch", "price": 3400, "quantityAvailable": 10 },
+    { "id": "pearl-yoghurt", "name": "Granola & yoghurt", "description": "Crunchy granola with creamy yoghurt.", "category": "Breakfast", "price": 2200, "quantityAvailable": 8 },
+    { "id": "pearl-watermelon", "name": "Watermelon juice", "description": "Fresh watermelon juice.", "category": "Drinks", "price": 900, "quantityAvailable": 16 }
+  ],
+  "trezadel-hall": [
+    { "id": "trezadel-curry", "name": "Coconut curry & rice", "description": "Mild coconut vegetable curry served with rice.", "category": "Dinner", "price": 3300, "quantityAvailable": 13 },
+    { "id": "trezadel-puffpuff", "name": "Puff-puff & tea", "description": "Fresh puff-puff with a cup of tea.", "category": "Breakfast", "price": 1200, "quantityAvailable": 20 },
+    { "id": "trezadel-smoothie", "name": "Banana smoothie", "description": "Banana and yoghurt smoothie.", "category": "Drinks", "price": 1100, "quantityAvailable": 10 }
+  ],
+  "queen-mary-hall": [
+    { "id": "mary-eba", "name": "Eba & vegetable soup", "description": "Eba with leafy vegetable soup.", "category": "Lunch", "price": 3000, "quantityAvailable": 14 },
+    { "id": "mary-omelette", "name": "Vegetable omelette & toast", "description": "Omelette with peppers, served with toast.", "category": "Breakfast", "price": 1900, "quantityAvailable": 9 },
+    { "id": "mary-malt", "name": "Malt drink", "description": "Chilled malt beverage.", "category": "Drinks", "price": 800, "quantityAvailable": 21 }
+  ],
+  "cedar-hall": [
+    { "id": "cedar-friedrice", "name": "Fried rice & peppered beef", "description": "Vegetable fried rice with peppered beef.", "category": "Lunch", "price": 3600, "quantityAvailable": 15 },
+    { "id": "cedar-sweetpotato", "name": "Sweet potato & egg", "description": "Roasted sweet potato with scrambled egg.", "category": "Breakfast", "price": 1800, "quantityAvailable": 13 },
+    { "id": "cedar-orange", "name": "Fresh orange juice", "description": "Freshly squeezed orange juice.", "category": "Drinks", "price": 1000, "quantityAvailable": 11 }
+  ]
+}

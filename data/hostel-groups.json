@@ -1,0 +1,25 @@
+[
+  {
+    "gender": "Male",
+    "hostels": [
+      { "id": "emerald", "name": "Emerald Hall" },
+      { "id": "edc", "name": "Enterprise Development Centre (EDC)" },
+      { "id": "faith", "name": "Faith Hostel" },
+      { "id": "amethyst", "name": "Amethyst" },
+      { "id": "the-pod", "name": "The Pod" },
+      { "id": "cooperative-kings", "name": "Cooperative Kings" }
+    ]
+  },
+  {
+    "gender": "Female",
+    "hostels": [
+      { "id": "cooperative-queens", "name": "Cooperative Queens" },
+      { "id": "redwood-hall", "name": "Redwood Hall" },
+      { "id": "trinity-hall", "name": "Trinity Hall" },
+      { "id": "pearl-hall", "name": "Pearl Hall" },
+      { "id": "trezadel-hall", "name": "Trezadel Hall" },
+      { "id": "queen-mary-hall", "name": "Queen Mary Hall" },
+      { "id": "cedar-hall", "name": "Cedar Hall" }
+    ]
+  }
+]
